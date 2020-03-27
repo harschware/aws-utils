@@ -23,8 +23,7 @@ function usage {
 Usage: ${SCRIPT_NAME} [-h] [-g region] -e eksClusterName -r rdsEndpoint
    -g    AWS Region.  defaults to us-west-2
    -e    EKS Cluster Name e.g. logz-io-demo
-   -r    RDS endpoint. e.g. tharsch-rds-dev1.cuw6ehs70cep.us-west-2.rds.amazonaws.com
-EOF
+   -r    RDS endpoint. e.g. my-rds.randomChars.us-west-2.rds.amazonaws.com
 }
 
 AWS_REGION=us-west-2
